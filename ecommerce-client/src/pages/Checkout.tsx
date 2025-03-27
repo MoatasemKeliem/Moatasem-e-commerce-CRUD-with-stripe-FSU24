@@ -161,8 +161,8 @@ const Checkout = () => {
             const stripeData = await response.json()
 
             const session_id = stripeData.session_id
-            newOrder.payment_id = session_id
-            newOrder = { ...newOrder, payment_id: session_id }
+            // newOrder.payment_id = session_id
+            // newOrder = { ...newOrder, payment_id: session_id }
 
 
             console.log("newOrder:", newOrder);
