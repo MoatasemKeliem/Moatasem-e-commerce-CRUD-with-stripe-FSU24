@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.cartProducts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid transparent;
+    width: 40em;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 15px 15px 50px 10px rgba(200, 195, 195, 0.75);
+}
+
+.cartDiv {
+    /* border: 1px solid black; */
+    width: 35em;
+    height: 7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.removeButton {
+    background-color: red;
+}
+
+.priceNReset {
+    display: flex;
+    width: 20em;
+    align-items: center;
+    justify-content: space-between;
+}

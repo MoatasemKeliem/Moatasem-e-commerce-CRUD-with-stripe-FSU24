@@ -1,0 +1,76 @@
+.section {
+    display: flex;
+    height: 50vh;
+}
+
+.manageDiv {
+    border: 1px solid transparent;
+    padding: 3em;
+    border-radius: 20px;
+    box-shadow: 15px 15px 50px 10px rgba(200, 195, 195, 0.75);
+    margin-bottom: 3em;
+}
+
+.manageDiv span {
+    font-weight: bold;
+}
+
+
+button {
+    padding: 0.8em 0.5em;
+    margin: 2em 0.4em 0 0;
+}
+
+#formSection {
+    width: 45em;
+}
+
+#PaymentStatusUpdate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.newSection div {
+    height: 20em;
+    text-align: center;
+}
+
+#orderItemsdiv {
+    margin-top: 2em;
+}
+
+#orderItemsdiv h3 {
+    margin-bottom: 3em;
+}
+
+.productConfirmationDiv {
+    border: 1px solid transparent;
+    padding: 3em;
+    border-radius: 20px;
+    box-shadow: 15px 15px 50px 10px rgba(200, 195, 195, 0.75);
+    margin-bottom: 3em;
+}
+
+.productConfirmationDiv span {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.productBought {
+
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    margin-right: 3em;
+}
+
+.productBought p {
+    margin-right: 3em;
+}

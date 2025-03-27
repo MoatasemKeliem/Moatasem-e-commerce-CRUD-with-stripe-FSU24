@@ -1,0 +1,54 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a2456;
+    height: 4em;
+    margin-bottom: 100px;
+}
+
+#logo {
+    background-color: transparent;
+    height: 2.7em;
+    width: 4em;
+}
+
+#brand {
+    color: white;
+    background-color: #1a2456;
+
+}
+
+.listNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a2456;
+}
+
+li {
+    margin-right: 2em;
+    list-style: none;
+}
+
+.navlink {
+    text-decoration: none;
+    background-color: #1a2456;
+    color: white;
+    padding: 0.5em;
+    font-weight: 700;
+}
+
+.active {
+    border-radius: 12px;
+    color: white;
+    border: 2px solid white;
+}
+
+.cartitems {
+    background-color: #ff8b68;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
